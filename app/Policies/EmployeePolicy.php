@@ -12,9 +12,9 @@ class EmployeePolicy
 
     public function before(User $user, $ability)
     {
-        if ($user->hasRole('admin')) {
+/*         if ($user->hasRole('admin')) {
             return true;
-        }
+        } */
     }
 
     /**
